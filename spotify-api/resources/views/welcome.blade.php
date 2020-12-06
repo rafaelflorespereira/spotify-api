@@ -25,6 +25,12 @@
             @csrf
             <label for="cidade">Cidade</label>
             <input name="cidade" type="text">
+
+            <label for="lat">Latitude</label>
+            <input name="lat" type="text">
+            <label for="lon">Longitude</label>
+            <input name="lon" type="text">
+            
             <button type="submit">Enviar</button>
         </form>
     </body>
